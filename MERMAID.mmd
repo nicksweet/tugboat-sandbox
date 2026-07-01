@@ -1,0 +1,11 @@
+graph TD
+    A[Human Contributor] --> B[Tugboat CLI: plan]
+    B --> C[Task Plan]
+    C --> D[Tugboat CLI: create-issue]
+    D --> E[GitHub Issues]
+    E --> F[Tugboat CLI: run-feature]
+    F --> G[AI Agent]
+    G --> H[uv: Development Environment]
+    G --> I[pytest: Testing]
+    style A fill:#f9f,stroke:#333
+    style G fill:#bbf,stroke:#333
