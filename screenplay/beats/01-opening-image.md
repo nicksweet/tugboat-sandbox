@@ -1,0 +1,5 @@
+## Beat 1: Opening Image
+
+INT. ROCKLAND LIGHTHOUSE - NIGHT
+
+A powerful lighthouse beam sweeps across the turbulent Atlantic, cutting through the fog that clings to the rocky coast of Maine. The beam rotates steadily, a silent sentinel watching over the craggy shoreline where waves crash against weathered stones. Salt spray hangs in the air, carried by a brisk wind that whips through the pines lining the cliffside. Inside the lantern room, ELENA VOSS (30s), focused and determined, adjusts the lens apparatus, her face illuminated by the alternating glow of the beam. She wears a worn wool sweater and practical boots, her hair tucked under a knit cap. The lighthouse, isolated yet steadfast, mirrors her own resolve as she prepares for another night of watch. Distant gull cries echo over the water, and the faint glow of a coastal village glimmers on the horizon, reminding her of the world beyond the light.
