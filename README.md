@@ -117,3 +117,9 @@ This blocking logic is referred to as `block_agent_ready` in the implementation.
 
 ## Fleet workspace E2E
 See the [fleet workspace E2E marker](docs/fleet-workspace/e2e-marker.md) for end-to-end validation.
+
+
+## Screenplay stress test
+
+This section describes the stress test for the screenplay.
+See [screenplay/script.md](screenplay/script.md) for details.
