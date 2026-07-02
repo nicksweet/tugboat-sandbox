@@ -1,0 +1,1 @@
+Fix README tugboat plan and create-issue sections to match real CLI flags (--brief, --project, --plan-only, --dry-run, --yes). Correct tier expectations to reference tugboat intake tiers. Docs only, no Python. Split into separate tasks with at most 2 requirement checkboxes each and grep-friendly verify scripts.

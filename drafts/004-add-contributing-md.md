@@ -1,0 +1,1 @@
+Add CONTRIBUTING.md for tugboat-sandbox with developer setup, plan E2E steps, run-feature E2E steps, and queue smoke-test steps (dry-run, --once). Docs only, no Python. Keep each task to one or two markdown files with simple grep verify.
