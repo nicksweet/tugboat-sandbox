@@ -73,3 +73,6 @@ Per the Constitution, the agent-ready label is blocked (i.e., not applied) for a
 However, note that the exact blocking conditions may be refined by the project's Constitution.
 
 This blocking logic is referred to as `block_agent_ready` in the implementation.
+
+## Fleet workspace E2E
+For end-to-end validation, refer to [fleet workspace E2E marker](docs/fleet-workspace/e2e-marker.md).
