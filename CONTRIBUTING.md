@@ -64,3 +64,26 @@ tugboat run-feature --project 123 --issue 456 --dry-run
 # Continue from a previous interruption
 tugboat run-feature --project 123 --issue 456 --continue
 ```
+
+## How to run tugboat queue (E2E smoke-test)
+
+Use `tugboat queue` to test the queue daemon in dry-run mode or single execution.
+
+**Prerequisites**
+- Tugboat installed and configured
+- Access to GitHub with appropriate permissions
+
+**Command syntax**
+```bash
+tugboat queue --dry-run
+tugboat queue --once
+```
+
+**Example usage**
+```bash
+# Dry run to see what the queue would do without executing
+tugboat queue --dry-run
+
+# Run the queue daemon once to process pending jobs
+tugboat queue --once
+```
