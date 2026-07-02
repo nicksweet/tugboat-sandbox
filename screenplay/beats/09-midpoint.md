@@ -1,0 +1,7 @@
+## Beat 9: Midpoint
+
+INT. HERO'S LOFT - NIGHT
+
+The hero stands amidst scattered blueprints and empty coffee cups, a triumphant grin spreading across their face. They've just secured the critical partnership that seemed impossible weeks ago—the investor check is deposited, the prototype works flawlessly, and the team erupts in cheers. For the first time, the goal feels within reach, a tangible validation of all the sacrifice. The hero raises a glass, toast echoing off brick walls, convinced this victory marks the turning point.
+
+But as the celebration winds down, a subtle unease creeps in. The investor's congratulatory tone feels rehearsed, the prototype's success hinges on a component they don't fully control, and a cryptic email from an unseen rival flashes on the secondary monitor: "Nice work. Wait until Phase Two." The hero's smile falters, replaced by a dawning realization that this success is merely a setup—a false victory designed to lower their guard before the true antagonist's move. The loft lights flicker, casting long shadows that swallow the confetti, and the hero stares at their reflection in the dark window, seeing not a winner, but a pawn stepping deeper into the trap.
