@@ -44,7 +44,8 @@ ok "promoted specs/ present"
 # Tracker issue (optional arg)
 if [[ -n "$ISSUE" ]]; then
   spec_root="$(gh issue view "$ISSUE" --repo nicksweet/tugboat-sandbox --json body -q .body \
-    | awk '/^## Spec root/{getline; print; exit}' | tr -d '\r')"
+    | python3 -c "import sys,re; b=sys.stdin.read(); m=re.search(r'(?ms)^## Spec root\s*\n+\s*(\S+)', b); print(m.group(1).rstrip('/') if m else '')")"
+  [[ -n "$spec_root" ]] || fail "could not parse tracker Spec root for issue #$ISSUE"
   [[ "$spec_root" == features/* ]] || fail "tracker Spec root not fleet path: $spec_root"
   ok "tracker #$ISSUE Spec root: $spec_root"
 fi
@@ -61,11 +62,17 @@ fi
 
 # Scenario 3: deliverable-only PR (optional arg)
 if [[ -n "$PR" ]]; then
-  bad="$(gh pr view "$PR" --repo nicksweet/tugboat-sandbox --json files -q '.files[].path' \
+  bad="$(gh pr diff "$PR" --repo nicksweet/tugboat-sandbox --name-only 2>/dev/null \
     | grep -E '^(specs/|features/)' || true)"
   if [[ -n "$bad" ]]; then
     echo "$bad"
     fail "PR #$PR contains plan/fleet paths"
+  fi
+  # Also verify git merge-base diff (gh pr files can include base-branch files)
+  if git rev-parse "origin/feature/003-fleet-workspace-e2e" >/dev/null 2>&1; then
+    extra="$(git diff origin/main...origin/feature/003-fleet-workspace-e2e --name-only 2>/dev/null \
+      | grep -E '^(specs/|features/)' || true)"
+    [[ -z "$extra" ]] || fail "branch diff contains plan/fleet paths: $extra"
   fi
   ok "PR #$PR deliverable-only (no specs/ or features/ paths)"
 fi
