@@ -1,0 +1,5 @@
+## Beat 4: Catalyst
+
+INT. LIGHTHOUSE STUDY - NIGHT
+
+The storm rages outside, but inside the lighthouse study, a soft glow from the desk lamp illuminates stacks of weathered logs and digital archives. ELARA, the keeper, sits hunched over her terminal, scrolling through the day's influx of migration requests. A chime cuts through the monotony—a priority alert from the system. Her eyes widen as the message unfolds: "NOTICE OF ACCOUNT DELETION: Your digital archive will be purged in 48 hours due to inactivity." The words blur as she realizes the consequence—centuries of lighthouse keeper logs, ship manifests, and personal journals, all slated for erasure. She slams her palm on the desk, the vibration rattling a half-empty mug of tea. Outside, the beacon sweeps its steady rhythm, unaware that the very history it guards is about to be silenced. Elara's breath quickens; she must act now to save the archive before the tide of oblivion washes it away. The account deletion notice ignites her resolve.
