@@ -13,13 +13,20 @@ Use `tugboat plan` to decompose a feature into tasks with frontier model assista
 
 **Command syntax**
 ```bash
-tugboat plan --feature <feature-name> [--output <output-dir>]
+tugboat plan --brief "..." --project <id>
+```
+or
+```bash
+tugboat plan --brief-file path/to/brief.md [--project <id>] [--plan-only] [--yes]
 ```
 
 **Example usage**
 ```bash
-# Plan a new feature called "feature/auth"
-tugboat plan --feature feature/auth --output ./plan
+# Plan a new feature using a brief string
+tugboat plan --brief "Add OAuth2 to the API gateway" --project proj_123
+
+# Plan a new feature using a brief file (with plan-only to generate plan without creating issues)
+tugboat plan --brief-file ./docs/feature/brief.md --project proj_123 --plan-only
 ```
 
 ## How to run tugboat create-issue
