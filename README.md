@@ -61,6 +61,30 @@ tugboat create-issue --brief "Add OAuth2 to the API gateway" --yes
 tugboat create-issue --body-file drafts/issue.md --title "Update API documentation"
 ```
 
+## How to run tugboat queue
+Use `tugboat queue` to process the intake queue and run feature tasks.
+
+**Prerequisites**
+- Tugboat installed and configured
+- Access to GitHub with permissions to read queue items and update issues
+
+**Command syntax**
+```bash
+tugboat queue [--dry-run] [--once]
+```
+
+**Example usage**
+```bash
+# Dry run to see what would be processed without making changes
+tugboat queue --dry-run
+
+# Process one item from the queue and then exit
+tugboat queue --once
+
+# Process the queue continuously (default behavior)
+tugboat queue
+```
+
 ## Tier expectations
 
 Tugboat classifies incoming work into three tiers: simple, standard, and complex.
