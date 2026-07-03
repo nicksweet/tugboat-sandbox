@@ -1,0 +1,2 @@
+# Plan E2E Marker
+The fleet workspace plan-to-build validation flow begins with `tugboat plan` to decompose a feature into tasks, creating a feature branch and a plan tracker issue. This is followed by `tugboat run-feature --issue N` to execute the tasks in scoped commits. For intake, `tugboat create-issue --brief "..." --split` is used separately to create multiple GitHub sub-issues without interfering with the plan-to-build sequence.
