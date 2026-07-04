@@ -1,0 +1,9 @@
+import unittest
+from sandbox_jsonlite import loads
+
+class TestJsonLite(unittest.TestCase):
+    def test_loads_basic(self):
+        self.assertEqual(loads('{"x": 1}'), {"x": 1})
+
+if __name__ == '__main__':
+    unittest.main()
