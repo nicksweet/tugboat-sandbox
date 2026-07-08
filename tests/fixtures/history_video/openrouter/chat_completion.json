@@ -1,0 +1,13 @@
+{
+  "id": "chatcmpl-test",
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\"title\": \"Moon Landing 1969\", \"target_duration_sec\": 150.0, \"beats\": [{\"order\": 1, \"slug\": \"launch-pad\", \"action\": \"EXT. KENNEDY SPACE CENTER - NIGHT\\n\\nSaturn V roars to life.\", \"duration_sec\": 25.0}, {\"order\": 2, \"slug\": \"translunar\", \"action\": \"INT. COMMAND MODULE - DAY\\n\\nEarth shrinks in the window.\", \"duration_sec\": 25.0}, {\"order\": 3, \"slug\": \"lunar-descent\", \"action\": \"INT. EAGLE LUNAR MODULE - DAY\\n\\nThe Eagle has landed.\", \"duration_sec\": 25.0}, {\"order\": 4, \"slug\": \"first-step\", \"action\": \"EXT. MOON SURFACE - DAY\\n\\nOne small step.\", \"duration_sec\": 25.0}, {\"order\": 5, \"slug\": \"flag-planting\", \"action\": \"EXT. MOON SURFACE - DAY\\n\\nStars and stripes on lunar soil.\", \"duration_sec\": 25.0}, {\"order\": 6, \"slug\": \"return-home\", \"action\": \"EXT. PACIFIC OCEAN - DAY\\n\\nCapsule splashes down.\", \"duration_sec\": 25.0}]}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "model": "openrouter/test-model"
+}
